@@ -1,0 +1,9 @@
+{
+  "name": "tailor-sass",
+  "version": "1.0.0",
+  "description": "Sass files for the Tailor CSS framework",
+  "main": "main.scss",
+  "repository": "https://github.com/aurer/tailor-sass",
+  "author": "Phil Maurer <philmau$gmail.com>",
+  "license": "MIT"
+}

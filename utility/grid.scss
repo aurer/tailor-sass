@@ -57,3 +57,11 @@
 		}
 	}
 }
+
+@mixin CSSGrid($columns, $gap: false) {
+	display: grid;
+	grid-template-columns: repeat($columns, 1fr);
+	@if $gap {
+		grid-gap: $gap;
+	}
+}

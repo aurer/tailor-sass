@@ -8,11 +8,10 @@
 	display: flex;
 	flex-flow: row wrap;
 
-	#{$cellSelector} {
+	> #{$cellSelector} {
+		display: inline-block;
 		box-sizing: inherit;
 		vertical-align: top;
-		width: 100%;
-		min-width: 0;
 		float: left;
 	}
 }
